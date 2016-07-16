@@ -1,0 +1,250 @@
+html, body{
+	font-family: 'Lato', sans-serif;
+}
+/* Common Classes */
+
+.fullWidth{
+	width:100%;
+}
+.mainWidth{
+	width:960px;
+}
+.bringToCenter{
+	margin:0 auto;
+}
+.clearFix{
+	clear:both;
+}
+
+.pullRight{
+	float:right;
+}
+.pullLeft{
+	float:left;
+}
+
+.verticalSpacer{
+	height: 10px;
+}
+
+.panel{
+	margin:0 10px;
+}
+
+.panel:first-child{
+	margin-left: 0;
+}
+
+.panel:last-child{
+	margin-right: 0;
+}
+
+/* Colors */
+.mainColor{
+	background:#115C9B;
+}
+.secondaryColor{
+	background:#1F76BD;
+}
+
+#header{
+	height: 70px;
+}
+.topInfo{
+	height: 20px;
+	padding: 5px 0;
+	color: white;
+}
+ .topInfo i{
+ 	margin-right: 10px;
+ }
+ .info{
+ padding: 5px 0;
+
+ }
+ .info div img{
+	height: 30px;
+}
+.info ul li{
+	display: inline-block;
+	transition: all 0.5s ease;
+
+}
+.info ul li:hover{
+	border-bottom: 1px solid white;
+
+}
+.info ul li a{
+	color: white;
+	line-height: 30px;
+	text-transform: uppercase;
+	padding: 0 15px;
+	text-decoration: none;
+}
+#slider{
+	height: 350px;
+	overflow: hidden;
+	background:url(../slider/home-slider-1.jpg) ;
+	background-size: 100% 350px;
+	text-align: center;
+	color:white;
+
+
+}
+#slider h1{
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 100px;
+}
+#slider h4{
+	font-size: 20px;
+}
+#slider button{
+	width:120px;
+	height: 30px;
+	background: white;
+	border:none;
+	color:blue;
+	margin-top:30px;
+}
+
+#announcement{
+	color:white;
+}
+
+
+#announcement div{
+	width: 205px;
+	text-align:center;
+	padding:10px;
+}
+
+
+#announcement div h1{
+	font-size:1.2em;
+	text-transform: uppercase;
+} 
+#announcement div p{
+	text-align: justify;
+	font-size:.9em;
+}
+#announcement div button{
+	padding:10px 15px;
+	border:none;
+	color:white;
+} 
+#news div:first-child{
+	background-image: url(../reasons/we-fight-togother.jpg);
+
+} 
+#news div:last-child{
+	background-image: url(../reasons/we-care-about.jpg) ;
+} 
+
+#news div{
+	width: 470px;
+	height: 500px;
+	text-align: center;
+	color: white;}
+#news div:first-child div  {
+	width: 470px;
+	height: 60px;
+	margin:420px 0 0 0 ;
+	background: #3979B2;
+	padding: 20px 0 0 0 ;}
+
+#news div:last-child div {
+	width: 470px;
+	height: 60px;
+	margin:420px 0 0 0 ;
+	background: #3979B2;
+	padding: 20px 0 0 0 ;
+
+}
+
+#causes div{
+	width: 220px;
+	height: 325px;
+	border: 1px solid #115C9B;
+}
+#causes h1 {
+    width: 250px;
+	font-size: 20px;
+	margin: 50px auto;
+	color: #1F76BD;
+	text-align: center;
+	border-bottom: 2px solid #4E85B4;
+
+
+}
+#causes div img{
+	width: 220px;
+	height: 325px;
+}
+	
+#sponsors {
+	height: 190px;
+	margin: 0 auto;
+
+}
+
+#sponsors div{
+	height: 120px;
+	margin: 0 auto 30px auto;
+
+}
+#sponsors h1{
+	width: 250px;
+	font-size: 20px;
+	margin: 50px auto;
+	color: #1F76BD;
+	text-align: center;
+	border-bottom: 2px solid #4E85B4;
+}
+
+#footer{
+	height: 220px;
+	border-top:40px solid #115C9B;
+	border-bottom: 20px solid #115C9B;
+}
+
+#footer div{
+	width: 306.666px;
+	height: 200px;
+}
+#footer section div h1{
+	font-size: 15px;
+	color:white;
+	border-top: 20px;
+	padding-top: 30px;
+	border-bottom: 2px solid white;
+}
+#footer section div p{
+	font-size: 13px;
+	color: white;
+	border-top:5px;
+}
+#footer input{
+	border:1px solid white;
+	background: #115C9B;
+	width: 306px;
+	height: 20px;
+	margin-top:5px;
+}
+#footer input:nth-child(4) {
+	border:1px solid white;
+	background: #115C9B;
+	width: 306px;
+	height: 30px;
+
+}
+.bt{
+	width: 100px;
+	height: 23px;
+	margin-top: 5px;
+	border:1px solid white;
+	background: #115C9B;
+	font-size: 10px;
+	color: white;
+	
+}
